@@ -1,0 +1,21 @@
+{
+  "name": "client",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "@babylonjs/core": "^8.12.1",
+    "@babylonjs/gui": "^8.12.1",
+    "@babylonjs/loaders": "^8.12.1",
+    "cannon-es": "^0.20.0",
+    "socket.io-client": "^4.8.1"
+  }
+}
